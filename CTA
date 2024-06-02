@@ -1,0 +1,10 @@
+#Get the charge amount
+charge=float(input('Enter the amount you were charged. $'))
+#Apply the tip and tax.
+tip= charge*.18
+tax= charge*.07
+#Display the amount.
+print('Charge for the food: %.2f' % charge)
+print('The tip amount: %.2f' %tip)
+print('Tax amount: %.2f' %tax)
+print('Total amount: %.2f %charge +tip +tax)
